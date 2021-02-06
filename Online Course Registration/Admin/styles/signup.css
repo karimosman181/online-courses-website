@@ -1,0 +1,59 @@
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid  #ffb606;
+  padding: 20px;
+  margin-bottom:15px;
+  width: 300px;
+  height: 50px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #ffb606;
+  padding: 20px;
+  width: 150px;
+  height: 50px;
+  margin-left:30%;
+  margin-top:10px;
+}
+
+#position{
+  position: absolute;
+  top: 10%;
+  right:10%;
+}
+
+#fonts{
+  color: #ffb606;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+
+.home_content
+{
+	position: absolute;
+	left: 10%;
+	top:40%;
+  background: #ffb606;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  padding-left: 39px;
+  padding-right: 42px;
+}
+
+.home_content h1
+{
+	font-size: 72px;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 0.5;
+}
+
+#signupfont{
+  font-size: 20px;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 0.5;
+}

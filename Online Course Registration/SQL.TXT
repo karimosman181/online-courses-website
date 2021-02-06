@@ -1,0 +1,35 @@
+CREATE DATABASE loginsystemtut;
+CREATE TABLE users (
+    idUsers int(50),
+    uidUsers tinytext,
+    emailUsers tinytext,
+    pwdUsers longtext
+);
+
+CREATE TABLE allcourses (
+     idUsers int(50),
+     course longtext
+);
+
+CREATE TABLE report (
+    uidName text,
+    reportdate text,
+    subject text,
+    message text
+);
+
+CREATE DATABASE admin;
+CREATE TABLE admins (
+    AdminId int(100),
+    AdminName varchar(100),
+    password longtext
+);
+
+CREATE TABLE allcourses(
+     CourseId int(50),
+     CourseName varchar(50),
+     Category varchar(100),
+     descr longtext,
+     cardtext longtext,
+     pages int(100)
+);
